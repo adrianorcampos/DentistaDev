@@ -19,12 +19,17 @@ const IndexPage = ({
   return (
     <Layout>
       <Helmet>
-		<title>{site.siteMetadata.title}</title>
+        <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+        <meta name="theme-color" content="#493b8a" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="#493b8a"
+        ></meta>
       </Helmet>
-      <HeroHeader/>
+      <HeroHeader />
     </Layout>
-  )
+  );
 }
 
 export default IndexPage
