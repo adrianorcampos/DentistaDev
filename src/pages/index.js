@@ -19,6 +19,7 @@ const IndexPage = ({
   return (
     <Layout>
       <Helmet>
+		<img src={`url('/assets/logo_v2.png')`} style="width: 10%"></img>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
