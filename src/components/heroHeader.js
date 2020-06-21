@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import logo from "../../static/assets/logo_v2.png"
+import logo from "../../static/assets/logo_v2_site.png"
 
 export default () => (
   <StaticQuery
@@ -18,7 +18,7 @@ export default () => (
     `}
     render={(data) => (
       <div className="hero-header">
-        <img src={logo} style={{ width: "50%", maxWidth: "150px" }} alt=""></img>
+        <img src={logo} alt=""></img>
         <div className="headline">{data.site.siteMetadata.home.title}</div>
         <div className="primary-content" dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description, }} />
         <div>
