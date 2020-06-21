@@ -148,10 +148,27 @@ a {
   }
 }
 .primary-content {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 32px;
   line-height: 1.5;
   font-weight: 300;
+}
+.marcaTexto {
+	    background-color: #493b8a;
+    color: #cec4e1;
+    border-radius: 10px;
+    padding: 0px 10px 2px;
+	font-weight: bolder;
+    font-size: smaller;
+}
+.email_img {
+	font-size: 22px;
+}
+.email {
+	font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #493b8a;
 }
 .post {
   padding: 0;

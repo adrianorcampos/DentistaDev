@@ -20,12 +20,21 @@ export default () => (
       <div className="hero-header">
         <img src={logo} alt=""></img>
         <div className="headline">{data.site.siteMetadata.home.title}</div>
-        <div className="primary-content" dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description, }} />
+        <div
+          className="primary-content"
+          dangerouslySetInnerHTML={{
+            __html: data.site.siteMetadata.home.description,
+          }}
+        />
         <div>
-          <a href="mailto:dentistadev@gmail.com">
-            <span role="img" aria-label="jsx-a11y/accessible-emoji">
-              📧
-            </span>
+          <span
+            class="email_img"
+            role="img"
+            aria-label="jsx-a11y/accessible-emoji"
+          >
+            💬
+          </span>
+          <a class="email" href="mailto:dentistadev@gmail.com">
             dentistadev@gmail.com
           </a>
         </div>
