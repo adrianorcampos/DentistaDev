@@ -1,5 +1,7 @@
 import React from "react"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
+import logo from "../../static/assets/logo_v2.png"
+
 export default () => (
   <StaticQuery
     query={graphql`
@@ -14,15 +16,30 @@ export default () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <div className="hero-header">
+        <img
+          src={logo}
+		  style={{ width: "50%",
+		maxWidth: "150px" }}
+          alt=""
+        ></img>
         <div className="headline">{data.site.siteMetadata.home.title}</div>
-        <div 
-          className="primary-content" 
-          dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
+        <div
+          className="primary-content"
+          dangerouslySetInnerHTML={{
+            __html: data.site.siteMetadata.home.description,
+          }}
         />
-        {/* <Link to='/contact' className="button -primary">Get in touch &rarr;</Link> */}
+        <div>
+          <a href="mailto:dentistadev@gmail.com">
+            <span role="img" aria-label="jsx-a11y/accessible-emoji">
+              📧
+            </span>
+            dentistadev@gmail.com
+          </a>
+        </div>
       </div>
     )}
   />
-)
+);
