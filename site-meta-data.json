@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "DentistaDev",
+  "siteUrl": "https://dentistadev.com.br",
+  "description": "Por uma Odontologia mais nerd!!",
   "home": {
-    "title": "Olá! Sou o DentistaDev",
-    "description": "Minha vida e carreira são um pouco fora do comum... 🤷‍♂️ /n Sou um analista de sistemas, nerd desde sempre, que virou dentista!"
+    "title": "👋 Olá! Sou o DentistaDev",
+	"description": "Minha vida e carreira são um pouco fora do comum... 🤷‍♂️ <br/> Sou um analista de sistemas, nerd 🤓 desde sempre, que virou dentista 😷!"
   }
 }
